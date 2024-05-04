@@ -11,13 +11,56 @@
     ></script>
   </head>
   <body>
-    <header class="container">
-      <nav></nav>
+    <header style="height: 8vh" class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PeterParker</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Mis habilidades</a>
+              <a class="nav-link" href="#">Proyectos</a>
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <section class="container">
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+    <section style="height: 40vh" class="container">
+      <div class="row flex-column flex-md-row">
+        <div class="col-6">
+          <img class="w-75" src="./assets/img/goku.jpg" alt="" />
+        </div>
+        <div class="col-6">
+          <div class="card border-0" style="width: 20rem">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title"> sub titulo</h5>
+              <p class="card-text" style="border: none">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Asperiores, aliquid delectus?
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="container">
